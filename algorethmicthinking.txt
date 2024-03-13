@@ -1,0 +1,27 @@
+Algorithmic Thinking Reminder
+
+It is crucial, therefore, that you work on designing the algorithm before you write any code. This involves two steps.
+Step 1: Analytical Thinking
+
+    Which modules should you create?
+        Main, database, and a module for each CSS block.
+    What is the responsibility of each module?
+        Main assembles and runs the code. Database holds the objects. Block modules create strings in HTML format to send to main.
+    What functions should be in which modules?
+        Main should run. Database should export required information. Blocks should have exports and click events.
+
+
+Step 2: Algorithmic Thinking
+
+    In which order should you invoke your functions?
+        In the order required to load them according to the wireframe, working down left to right, top to bottom. This is because it's easier to read, write, and manage this way.
+    What data do you need to get from your database when an event listener is triggered?
+    In what order should the data be navigated with for..of loops?
+    What is the spcific algorithm for each function? Does the function need parameters? Should it return something?
+
+Step 3: Visualize the Solution
+
+    Draw a dependency graph
+    Draw a sequence diagram
+
+Do all of this before you write a single line of code, or you could end up wasting hours of time writing code only to find that you need to throw it all away because you didn't design the algorithm first.
