@@ -5,7 +5,7 @@ import { venuesBlock } from "./venues/venuesBlock.js"
 const mainHTML = `
 
 <article class="container__bookings">
-    <h2>bookings</h2>
+    <h2>Bookings</h2>
     ${bookingsBlock()}
 </article>
 

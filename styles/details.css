@@ -5,3 +5,58 @@ html {
 header {
     display:flex;
 }
+
+header > h2 {
+    flex-basis: 100%;
+    text-align: center;
+    color: rgb(40, 40, 40);
+}
+
+#container__main {
+    padding: 30px;
+    display: flex;
+    border: 1px solid #ddd;
+    flex-direction: column;
+}
+
+.container__bookings {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    border: 1px solid #ddd;
+}
+
+.container__bookings > h2{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.container__bottom {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #ddd;
+}
+
+.container__venues {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    flex-direction: column;
+}
+
+.container__venues > h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.container__bands {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    flex-direction: column;
+}
+
+.container__bands > h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
